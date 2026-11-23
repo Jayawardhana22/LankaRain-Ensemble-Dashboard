@@ -221,12 +221,6 @@ with left:
 
     st.progress(prob)
 
-    st.caption(
-        "This is a student research demonstration. "
-        "Predictions depend on historical patterns and "
-        "are not an official weather forecast."
-    )
-
 with right:
     st.write("**Rain probability**")
 
