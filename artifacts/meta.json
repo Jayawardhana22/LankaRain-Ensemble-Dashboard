@@ -1,0 +1,40 @@
+{
+  "features": [
+    "city",
+    "temp_max_c",
+    "temp_min_c",
+    "precipitation_mm",
+    "wind_speed_max_kmh",
+    "humidity_mean_pct",
+    "rain_lag1_mm",
+    "rain_lag2_mm",
+    "temp_max_lag1_c",
+    "humidity_lag1_pct",
+    "wind_lag1_kmh",
+    "month_sin",
+    "month_cos",
+    "day_of_year_sin",
+    "day_of_year_cos"
+  ],
+  "numeric_features": [
+    "temp_max_c",
+    "temp_min_c",
+    "precipitation_mm",
+    "wind_speed_max_kmh",
+    "humidity_mean_pct",
+    "rain_lag1_mm",
+    "rain_lag2_mm",
+    "temp_max_lag1_c",
+    "humidity_lag1_pct",
+    "wind_lag1_kmh",
+    "month_sin",
+    "month_cos",
+    "day_of_year_sin",
+    "day_of_year_cos"
+  ],
+  "categorical_features": [
+    "city"
+  ],
+  "threshold_mm": 1.0,
+  "target": "Rain tomorrow (precipitation >= 1 mm)"
+}
